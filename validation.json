@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "validator": "Codex skill-creator/scripts/quick_validate.py",
+  "validator_sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c",
+  "pyyaml_version": "6.0.3",
+  "format_checks": [
+    {
+      "skill": "concept-practice",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "stderr": "",
+      "lines": 31
+    },
+    {
+      "skill": "data-decision-brief",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "stderr": "",
+      "lines": 31
+    },
+    {
+      "skill": "debug-evidence-loop",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "stderr": "",
+      "lines": 33
+    },
+    {
+      "skill": "evidence-research-brief",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "stderr": "",
+      "lines": 33
+    },
+    {
+      "skill": "meeting-action-brief",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "stderr": "",
+      "lines": 30
+    },
+    {
+      "skill": "weekly-progress-brief",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "stderr": "",
+      "lines": 32
+    }
+  ],
+  "behavioral_evaluation": "not_run",
+  "performance_comparison": "not_run",
+  "limitations": "仅文件格式、数据结构和本地链接校验；未运行独立模型对比、连接器集成或真实任务验收。",
+  "integrity_checks": {
+    "local_links": "pass",
+    "catalog_count": 26,
+    "repository_count": 8,
+    "behavioral_case_count": 18,
+    "case_skill_references": "pass"
+  }
+}

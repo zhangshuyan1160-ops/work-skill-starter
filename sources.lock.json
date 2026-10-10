@@ -1,0 +1,437 @@
+{
+  "review_date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "repositories": [
+    {
+      "repo": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 95,
+      "tree_truncated": false
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "commit": "82701c24b99488536ca399ff4789a458b7a05db7",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 445,
+      "tree_truncated": false
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 20,
+      "tree_truncated": false
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "commit": "95bdacc803aa5cfdb10f35e5b9fb2d4b11100133",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 252,
+      "tree_truncated": false
+    },
+    {
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "commit": "92ace75ac21efe19a620434e0ca4e356081fe807",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 177,
+      "tree_truncated": false
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 15,
+      "tree_truncated": false
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
+      "default_branch": "master",
+      "archived": false,
+      "skill_manifest_count_in_tree": 864,
+      "tree_truncated": false
+    },
+    {
+      "repo": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "default_branch": "main",
+      "archived": false,
+      "skill_manifest_count_in_tree": 44,
+      "tree_truncated": false
+    }
+  ],
+  "fetched_files": [
+    {
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-knowledge-capture/SKILL.md",
+      "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-knowledge-capture/SKILL.md",
+      "sha256": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00",
+      "lines": 56
+    },
+    {
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-meeting-intelligence/SKILL.md",
+      "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-meeting-intelligence/SKILL.md",
+      "sha256": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332",
+      "lines": 60
+    },
+    {
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-research-documentation/SKILL.md",
+      "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-research-documentation/SKILL.md",
+      "sha256": "e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7",
+      "lines": 59
+    },
+    {
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-knowledge-capture/LICENSE.txt",
+      "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-knowledge-capture/LICENSE.txt",
+      "sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "lines": 7
+    },
+    {
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-meeting-intelligence/LICENSE.txt",
+      "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-meeting-intelligence/LICENSE.txt",
+      "sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "lines": 7
+    },
+    {
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-research-documentation/LICENSE.txt",
+      "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-research-documentation/LICENSE.txt",
+      "sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "lines": 7
+    },
+    {
+      "repo": "anthropics/skills",
+      "path": "README.md",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/README.md",
+      "sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "lines": 96
+    },
+    {
+      "repo": "anthropics/skills",
+      "path": "skills/doc-coauthoring/SKILL.md",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/doc-coauthoring/SKILL.md",
+      "sha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4",
+      "lines": 375
+    },
+    {
+      "repo": "anthropics/skills",
+      "path": "skills/internal-comms/SKILL.md",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/internal-comms/SKILL.md",
+      "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+      "lines": 32
+    },
+    {
+      "repo": "anthropics/skills",
+      "path": "skills/docx/LICENSE.txt",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/docx/LICENSE.txt",
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+      "lines": 30
+    },
+    {
+      "repo": "anthropics/skills",
+      "path": "skills/xlsx/LICENSE.txt",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/xlsx/LICENSE.txt",
+      "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+      "lines": 30
+    },
+    {
+      "repo": "anthropics/skills",
+      "path": "skills/internal-comms/LICENSE.txt",
+      "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/internal-comms/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "lines": 202
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "file-organizer/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/file-organizer/SKILL.md",
+      "sha256": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5",
+      "lines": 433
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "meeting-insights-analyzer/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/meeting-insights-analyzer/SKILL.md",
+      "sha256": "c639c0fc10a84225ba117ec5561f8cca1325c8d739fd0ac169b5a6dca6a0d071",
+      "lines": 327
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "content-research-writer/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/content-research-writer/SKILL.md",
+      "sha256": "27eb5c1a0a88a9c1c64f6fcd9c28782e6a6e70d5da43233c4e99ade946f74825",
+      "lines": 538
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "invoice-organizer/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/invoice-organizer/SKILL.md",
+      "sha256": "62198235231376cb09bc28bd601fb120d3ef24b3ddb55c4b71965f9044352fda",
+      "lines": 446
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "productivity/skills/task-management/SKILL.md",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/productivity/skills/task-management/SKILL.md",
+      "sha256": "db1320873d68caab09cdbc1788e78d81e3b9b7cc6b499e2c4b975f25e873049f",
+      "lines": 91
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "productivity/skills/memory-management/SKILL.md",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/productivity/skills/memory-management/SKILL.md",
+      "sha256": "ad42fd09cbab585b8ae8fcce54e711d37105d5d5b7d9ceaf9b29bf6441f7a88d",
+      "lines": 323
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/analyze/SKILL.md",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/data/skills/analyze/SKILL.md",
+      "sha256": "4ee816363d944c7a959e43384576d979a414f37fff7071c0bfb8935aae10143e",
+      "lines": 119
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/validate-data/SKILL.md",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/data/skills/validate-data/SKILL.md",
+      "sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b",
+      "lines": 383
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "engineering/skills/debug/SKILL.md",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/engineering/skills/debug/SKILL.md",
+      "sha256": "e50bb92cbcb2715139f3a3cb9ff282a8f0f9ae794f8f35d81338654e2601d32a",
+      "lines": 95
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "LICENSE",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/LICENSE",
+      "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "lines": 212
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "data/LICENSE",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/data/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "lines": 202
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "path": "productivity/LICENSE",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/95bdacc803aa5cfdb10f35e5b9fb2d4b11100133/productivity/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "lines": 202
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "path": "skills/gws-workflow-meeting-prep/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/gws-workflow-meeting-prep/SKILL.md",
+      "sha256": "ba5e0ad9bfe1e04c053987b3bca7814fe7b7d5cf70e76a0e99a639a12219f940",
+      "lines": 48
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "path": "skills/gws-workflow-email-to-task/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/gws-workflow-email-to-task/SKILL.md",
+      "sha256": "07dfd3803f8205d9f57a68bc3b1e61de937f58ed9f2082ddabe8e3266239a3bd",
+      "lines": 48
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "path": "skills/recipe-generate-report-from-sheet/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/recipe-generate-report-from-sheet/SKILL.md",
+      "sha256": "86de0f7e405fc97887120ae1224c2c4de10f1825713a50634c5b76ca692b9845",
+      "lines": 38
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "path": "LICENSE",
+      "url": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "lines": 202
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "path": "skills/meeting-minutes/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/82701c24b99488536ca399ff4789a458b7a05db7/skills/meeting-minutes/SKILL.md",
+      "sha256": "69420bbe78b2f6c81f9689672360dd97e71e9fc83045a70e3d6924f24973a789",
+      "lines": 235
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "path": "skills/create-implementation-plan/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/82701c24b99488536ca399ff4789a458b7a05db7/skills/create-implementation-plan/SKILL.md",
+      "sha256": "11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066",
+      "lines": 185
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "path": "skills/add-educational-comments/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/82701c24b99488536ca399ff4789a458b7a05db7/skills/add-educational-comments/SKILL.md",
+      "sha256": "5273774d9b6628dcec97bc0b5ed66ff36bf235e65d4d79a43917d60e91df348d",
+      "lines": 128
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "path": "LICENSE",
+      "url": "https://github.com/github/awesome-copilot/blob/82701c24b99488536ca399ff4789a458b7a05db7/LICENSE",
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "lines": 21
+    },
+    {
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "path": "skills/literature-review/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/92ace75ac21efe19a620434e0ca4e356081fe807/skills/literature-review/SKILL.md",
+      "sha256": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8",
+      "lines": 229
+    },
+    {
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "path": "skills/scientific-critical-thinking/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/92ace75ac21efe19a620434e0ca4e356081fe807/skills/scientific-critical-thinking/SKILL.md",
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "lines": 235
+    },
+    {
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "path": "skills/statistical-analysis/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/92ace75ac21efe19a620434e0ca4e356081fe807/skills/statistical-analysis/SKILL.md",
+      "sha256": "e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997",
+      "lines": 453
+    },
+    {
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "path": "LICENSE.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/92ace75ac21efe19a620434e0ca4e356081fe807/LICENSE.md",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "lines": 21
+    },
+    {
+      "repo": "obra/superpowers",
+      "path": "skills/systematic-debugging/SKILL.md",
+      "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "lines": 283
+    },
+    {
+      "repo": "obra/superpowers",
+      "path": "skills/verification-before-completion/SKILL.md",
+      "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "lines": 120
+    },
+    {
+      "repo": "obra/superpowers",
+      "path": "skills/writing-plans/SKILL.md",
+      "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "lines": 204
+    },
+    {
+      "repo": "obra/superpowers",
+      "path": "LICENSE",
+      "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "lines": 21
+    }
+  ],
+  "license_notes": [
+    {
+      "repo": "openai/skills",
+      "scope": "本次选取的三个 Notion Skill",
+      "finding": "各目录 LICENSE.txt 为 MIT 文本，版权主体为 Notion Labs。不能据此推断仓库内所有文件同一许可。"
+    },
+    {
+      "repo": "anthropics/skills",
+      "scope": "internal-comms",
+      "finding": "目录 LICENSE.txt 为 Apache-2.0。"
+    },
+    {
+      "repo": "anthropics/skills",
+      "scope": "docx、xlsx；另参考仓库 README",
+      "finding": "独立许可证明确限制复制、改编和分发；README 将 docx、pdf、pptx、xlsx 标为 source-available。未复制这些技能正文或资源。"
+    },
+    {
+      "repo": "anthropics/skills",
+      "scope": "doc-coauthoring",
+      "finding": "本次固定提交未见该目录 LICENSE 文件；README 只笼统说明许多技能采用 Apache-2.0，不据此授权重新发布此目录。"
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "scope": "本次选取的四个 Skill",
+      "finding": "仓库树中未找到根 LICENSE 或这四个目录的 LICENSE；没有清晰再分发依据，本包仅记录候选评价。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "scope": "根目录及已检查 data、productivity 目录",
+      "finding": "Apache-2.0；实际复用仍需看具体文件和第三方声明。"
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "scope": "根 LICENSE",
+      "finding": "Apache-2.0。"
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "scope": "根 LICENSE",
+      "finding": "MIT。"
+    },
+    {
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "scope": "根 LICENSE.md",
+      "finding": "MIT。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "scope": "根 LICENSE",
+      "finding": "MIT。"
+    }
+  ],
+  "implementation_provenance": {
+    "meeting-action-brief": [
+      "github/awesome-copilot:meeting-minutes 的行动项与可追溯性思路；中文正文重新编写"
+    ],
+    "weekly-progress-brief": [
+      "anthropics/skills:internal-comms 的沟通类型",
+      "anthropics/knowledge-work-plugins:task-management 的状态管理；中文正文重新编写"
+    ],
+    "evidence-research-brief": [
+      "openai/skills:notion-research-documentation 的来源综合",
+      "K-Dense-AI/claude-scientific-skills:literature-review 与 scientific-critical-thinking 的证据边界；中文正文重新编写"
+    ],
+    "concept-practice": [
+      "针对学习用途新增的练习反馈设计",
+      "对 github/awesome-copilot:add-educational-comments 的范围与固定扩写规则作取舍；未翻译复制正文"
+    ],
+    "data-decision-brief": [
+      "anthropics/knowledge-work-plugins:analyze 与 validate-data 的分析及口径核对思路；中文正文重新编写"
+    ],
+    "debug-evidence-loop": [
+      "anthropics/knowledge-work-plugins:debug",
+      "obra/superpowers:systematic-debugging 与 verification-before-completion 的复现与验证思路；中文正文重新编写"
+    ]
+  },
+  "package_contents": "本包不包含上游 Skill 正文、脚本、模板或受限 Office 资源；新写内容采用本项目 LICENSE。"
+}

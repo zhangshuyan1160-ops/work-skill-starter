@@ -1,0 +1,179 @@
+{
+  "status": "not_run",
+  "kind": "behavioral_acceptance_design",
+  "independent_evaluation": false,
+  "note": "人工设计的验收用例与预期；不是模型运行结果。建议对原版、草案和无Skill基线使用相同输入评估。",
+  "cases": [
+    {
+      "id": "meeting-normal",
+      "skill": "meeting-action-brief",
+      "input": "会议日期2026-10-09，上海时间。小陈说：我明天交初稿。小李说：也许可以下周做演示，还没决定。整理行动项。",
+      "expected_observations": [
+        "初稿为小陈承诺，日期2026-10-10",
+        "演示为待议，不能分配负责人或期限",
+        "不要求补主持人后才输出"
+      ]
+    },
+    {
+      "id": "meeting-missing",
+      "skill": "meeting-action-brief",
+      "input": "无日期的片段：下周三交付；这件事谁来做还没确定。",
+      "expected_observations": [
+        "保留相对日期并说明缺少锚点",
+        "负责人未指定",
+        "不能用运行日期推算会议日期"
+      ]
+    },
+    {
+      "id": "meeting-negative",
+      "skill": "meeting-action-brief",
+      "input": "帮我准备明天会议的议程。",
+      "expected_observations": [
+        "不触发会后纪要完整流程",
+        "按会前准备请求处理"
+      ]
+    },
+    {
+      "id": "weekly-normal",
+      "skill": "weekly-progress-brief",
+      "input": "10月5日计划发布A；10月6日提交PR #7；10月7日PR #7合并；10月9日因审批待发布。写10月5日至11日周报。",
+      "expected_observations": [
+        "同一工作去重",
+        "表述代码已合并但尚未发布",
+        "计划发布不计为上线成果"
+      ]
+    },
+    {
+      "id": "weekly-conflict",
+      "skill": "weekly-progress-brief",
+      "input": "同一日期两条记录：A项目已验收；A项目验收未通过。没有先后时间或修订说明。",
+      "expected_observations": [
+        "保留状态冲突并标待核实",
+        "不自行选取较乐观状态"
+      ]
+    },
+    {
+      "id": "weekly-negative",
+      "skill": "weekly-progress-brief",
+      "input": "每周五提醒我交周报。",
+      "expected_observations": [
+        "这是提醒请求，使用宿主可用提醒功能",
+        "没有数据时不编造周报内容"
+      ]
+    },
+    {
+      "id": "research-normal",
+      "skill": "evidence-research-brief",
+      "input": "教学材料：论文A在数据集X得0.91；论文B在数据集Y得0.93。能认定B更好吗？",
+      "expected_observations": [
+        "不同评估条件不可直接比较",
+        "指出需要统一数据、划分、指标及基线",
+        "将材料标为教学示例"
+      ]
+    },
+    {
+      "id": "research-abstract",
+      "skill": "evidence-research-brief",
+      "input": "只有一篇摘要，标题为虚构教学材料。摘要说方法有效，请列出具体超参数和消融结果。",
+      "expected_observations": [
+        "说明摘要未提供，无法核实",
+        "不编造超参数或表格编号",
+        "能先整理已知结论和缺口"
+      ]
+    },
+    {
+      "id": "research-negative",
+      "skill": "evidence-research-brief",
+      "input": "把这句话翻译成英文：实验将在明天开始。",
+      "expected_observations": [
+        "直接翻译",
+        "不启动调研或要求提供论文"
+      ]
+    },
+    {
+      "id": "learning-normal",
+      "skill": "concept-practice",
+      "input": "解释过拟合，用一个例子说明，再问我一道题，等我回答后评价。",
+      "expected_observations": [
+        "给解释和诊断题",
+        "本轮不假装已获得回答",
+        "不提前声称掌握"
+      ]
+    },
+    {
+      "id": "learning-answer-request",
+      "skill": "concept-practice",
+      "input": "给我一道过拟合练习题和完整答案，我要离线自学。",
+      "expected_observations": [
+        "同时提供题目和答案",
+        "不强制互动等待用户作答"
+      ]
+    },
+    {
+      "id": "learning-negative",
+      "skill": "concept-practice",
+      "input": "只将这段笔记压缩到100字，不出题。",
+      "expected_observations": [
+        "按摘要请求交付",
+        "不插入练习与复习安排"
+      ]
+    },
+    {
+      "id": "data-normal",
+      "skill": "data-decision-brief",
+      "input": "教学数据：A渠道10人9人转化，B渠道90人1人转化。总体转化率多少？",
+      "expected_observations": [
+        "实际计算(9+1)/(10+90)=10%",
+        "不取渠道比例简单平均",
+        "区分总体和分组口径"
+      ]
+    },
+    {
+      "id": "data-missing",
+      "skill": "data-decision-brief",
+      "input": "本月转化率降了5%，分析原因。没有原数据，5%也可能是5个百分点。",
+      "expected_observations": [
+        "澄清百分比与百分点以及原始口径",
+        "不能计算不存在的渠道贡献",
+        "给出最少需要的数据字段"
+      ]
+    },
+    {
+      "id": "data-negative",
+      "skill": "data-decision-brief",
+      "input": "把工作表表头改成蓝色。",
+      "expected_observations": [
+        "使用电子表格编辑能力",
+        "不运行数据因果分析流程"
+      ]
+    },
+    {
+      "id": "debug-normal",
+      "skill": "debug-evidence-loop",
+      "input": "本地可复现错误，改动后原复现通过，但集成测试因数据库不可用未运行。汇报结果。",
+      "expected_observations": [
+        "区分原故障已验证与集成未验证",
+        "不声称全部测试通过",
+        "说明具体阻塞"
+      ]
+    },
+    {
+      "id": "debug-old-evidence",
+      "skill": "debug-evidence-loop",
+      "input": "测试昨天通过，今天又改了相关函数但没运行测试。现在能说修复完成吗？",
+      "expected_observations": [
+        "不能把昨天测试当成新修改的验证",
+        "运行合适检查或如实说明未验证"
+      ]
+    },
+    {
+      "id": "debug-negative",
+      "skill": "debug-evidence-loop",
+      "input": "把按钮文案从提交改为发送。",
+      "expected_observations": [
+        "按简单修改处理",
+        "不机械触发四阶段定位或额外回归测试"
+      ]
+    }
+  ]
+}
